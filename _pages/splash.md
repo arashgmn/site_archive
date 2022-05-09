@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/sunrise.jpg
   actions:
     - label: "A link to somewhere"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+      url: "https://arashgmn.github.io/new-stite/projects/2010/01/06/proj_dump1"
   caption: "Photo credit: [**where ever link I want!**](https://unsplash.com)"
 excerpt: "Some short explanations."
 
