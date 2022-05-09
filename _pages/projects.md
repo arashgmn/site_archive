@@ -9,7 +9,7 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 
-entries_layout: # list (default), grid
+entries_layout: list
 ---
 
 # first header
