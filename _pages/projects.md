@@ -19,3 +19,8 @@ hi there!
 nothing here really.
 
 
+# To do
+- figure out how to link to `_projects` folder
+- right down a bunch of description for each proj
+- fix the TOC of this page
+- remove junks by using `published=false` or something
