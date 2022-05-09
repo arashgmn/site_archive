@@ -3,22 +3,26 @@ title: "Splash Page"
 layout: splash
 permalink: /splash/
 date: 2016-03-23T11:48:41-04:00
+
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/sunrise.jpg
   actions:
-    - label: "Download"
+    - label: "A link to somewhere"
       url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  caption: "Photo credit: [**where ever link I want!**](https://unsplash.com)"
+excerpt: "Some short explanations."
+
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'This thing is centered. You can have whatever markdown you want here too!'
+
 feature_row:
   - image_path: assets/images/16per.jpg
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  
   - image_path: /assets/images/birds.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
@@ -26,10 +30,12 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
+  
   - image_path: /assets/images/bio-photo.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+
 feature_row2:
   - image_path: /assets/images/aurora.jpg
     alt: "placeholder image 2"
@@ -37,7 +43,8 @@ feature_row2:
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
+
 feature_row3:
   - image_path: /assets/images/moon.jpg
     alt: "placeholder image 2"
@@ -45,7 +52,8 @@ feature_row3:
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
+
 feature_row4:
   - image_path: /assets/images/matrix.jpg
     alt: "placeholder image 2"
@@ -53,7 +61,7 @@ feature_row4:
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
 ---
 
 hello
