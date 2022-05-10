@@ -88,6 +88,11 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arashgmn/"
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -109,11 +114,14 @@ defaults:
       author_profile: true
   # _projects
   - scope:
-      path: "_projects"
-      type: pages
+      path: ""
+      type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      share: true
+
+
 
 category_archive:
   type: liquid
