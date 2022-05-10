@@ -20,7 +20,7 @@ intro:
 feature_row:
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    title: "proj 1"
+    title: "proj 1 title"
     excerpt: "Excerpt of proj"
     url: "/projects/proj1"
     btn_label: "Read More"
@@ -28,7 +28,7 @@ feature_row:
   
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    title: "proj 2"
+    title: "proj 2 title"
     excerpt: "Excerpt of proj"
     url: "/projects/proj2"
     btn_label: "Read More"
@@ -36,18 +36,34 @@ feature_row:
   
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    title: "proj 3"
+    title: "proj 3 title"
     excerpt: "Excerpt of proj"
     url: "/projects/proj3"
     btn_label: "Read More"
     btn_class: "btn--info"
   
 feature_row2:
+- image_path: assets/images/16per.jpg
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    title: "proj 4 title"
+    excerpt: "Excerpt of proj"
+    url: "/projects/proj4"
+    btn_label: "Read More"
+    btn_class: "btn--info"
+  
+  - image_path: assets/images/16per.jpg
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    title: "proj 5 title"
+    excerpt: "Excerpt of proj"
+    url: "/projects/proj5"
+    btn_label: "Read More"
+    btn_class: "btn--info"
+
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "last dump"
     excerpt: "Excerpt of proj"
-    url: "/project/last-dump"
+    url: "/projects/last-dump"
     btn_label: "Read More"
     btn_class: "btn--info"
 ---
@@ -58,7 +74,7 @@ hello
 What does this do?
 {% include feature_row %}
 
-I have no idea/1
+I have no idea...
 {% include feature_row id="feature_row2" type="left" %}
 
 But here comes a test...

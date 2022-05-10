@@ -1,5 +1,5 @@
 ---
-title: it can be the name of a proj
+title: Name of Proj last
 layout: collection
 permalink: /projects/last-dump
 entries_layout: grid
