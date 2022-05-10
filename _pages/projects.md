@@ -10,7 +10,6 @@ toc_label: "My Table of Contents"
 toc_icon: "cog"
 
 entries_layout: list
-published: false
 ---
 
 # first header
