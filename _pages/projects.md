@@ -1,7 +1,7 @@
 ---
-title: Projects
+title: Projects-draft
 layout: collection
-permalink: /projects/
+#permalink: /projects/
 collection: projects
 entries_layout: grid
 
@@ -10,6 +10,7 @@ toc_label: "My Table of Contents"
 toc_icon: "cog"
 
 entries_layout: list
+published: false
 ---
 
 # first header
