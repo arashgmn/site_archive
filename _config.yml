@@ -91,7 +91,7 @@ footer:
 collections:
   projects:
     output: true
-    permalink: /:collection/:path/
+    #permalink: /:collection/:path/
 
 defaults:
   # _posts

@@ -2,7 +2,7 @@
 title: "Project portfolio"
 layout: splash
 permalink: /projects/
-date: 2016-03-23T11:48:41-04:00
+#date: 2016-03-23T11:48:41-04:00
 
 header:
   overlay_color: "#000"
@@ -25,7 +25,6 @@ feature_row:
     url: "/projects/proj1"
     btn_label: "Read More"
     btn_class: "btn--info"
-  
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "proj 2 title"
@@ -33,7 +32,6 @@ feature_row:
     url: "/projects/proj2"
     btn_label: "Read More"
     btn_class: "btn--info"
-  
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "proj 3 title"
@@ -50,7 +48,6 @@ feature_row2:
     url: "/projects/proj4"
     btn_label: "Read More"
     btn_class: "btn--info"
-  
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "proj 5 title"
@@ -58,7 +55,6 @@ feature_row2:
     url: "/projects/proj5"
     btn_label: "Read More"
     btn_class: "btn--info"
-
   - image_path: assets/images/16per.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "last dump"
