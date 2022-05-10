@@ -22,7 +22,7 @@ feature_row:
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "proj 1"
     excerpt: "Excerpt of proj"
-    url: "/project/proj1"
+    url: "/projects/proj1"
     btn_label: "Read More"
     btn_class: "btn--info"
   
@@ -30,7 +30,7 @@ feature_row:
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "proj 2"
     excerpt: "Excerpt of proj"
-    url: "/project/proj2"
+    url: "/projects/proj2"
     btn_label: "Read More"
     btn_class: "btn--info"
   
@@ -38,7 +38,7 @@ feature_row:
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     title: "proj 3"
     excerpt: "Excerpt of proj"
-    url: "/project/proj3"
+    url: "/projects/proj3"
     btn_label: "Read More"
     btn_class: "btn--info"
   

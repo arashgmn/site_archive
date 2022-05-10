@@ -1,8 +1,7 @@
 ---
 title: it can be the name of a proj
 layout: collection
-permalink: /portfolio/last-dump
-collection: portfolio
+permalink: /projects/last-dump
 entries_layout: grid
 classes: wide
 ---
