@@ -74,6 +74,5 @@ I have no idea...
 {% include feature_row id="feature_row2" type="left" %}
 
 But here comes a test...
-{% include feature_row id="feature_row3" type="right" %}
 
 to decipher everything!
