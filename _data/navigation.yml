@@ -11,5 +11,3 @@ main:
     url: /posts/
   - title: "Tags"
     url: /tags/
-  - title: "Sitemap"
-    url: /sitemap.xml

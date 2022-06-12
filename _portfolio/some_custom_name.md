@@ -1,7 +1,6 @@
 ---
 title: Name of Proj last
 collection: projects
-toc: true
 tag: projects
 ---
 
