@@ -190,6 +190,7 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
+      published: true
   # _pages
   - scope:
       path: "_pages"
