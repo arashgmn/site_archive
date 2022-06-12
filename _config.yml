@@ -5,13 +5,19 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# uncomment for local 
+# theme                    : "minimal-mistakes-jekyll"
+
+# uncomment for remote 
+remote_theme             : "mmistakes/minimal-mistakes"
+source: "/" # (for github pages -- DON'T CHANGE)
+incremental: false # (for github pages -- DON'T CHANGE)
+
+
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-#theme                    : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -202,8 +208,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Conversion 
 lsi: false # (for github pages -- DON'T CHANGE)
 safe: true # (for github pages -- DON'T CHANGE)
-source: "/" # (for github pages -- DON'T CHANGE)
-incremental: false # (for github pages -- DON'T CHANGE)
 highlighter: rouge # (for github pages -- DON'T CHANGE)
 gist:
   noscript: false # (for github pages -- DON'T CHANGE)
