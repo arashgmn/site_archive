@@ -30,7 +30,7 @@ search: true
 comments:
   provider               : discus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : arashgmn
+    shortname            : "arashgmn"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -148,7 +148,7 @@ footer:
 #      icon: "fab fa-fw fa-instagram"
 #      # url:
     - label: "Sitemap"
-      icon: "fa-regular fa-sitemap"
+      icon: "fab fa-fw fa-regular fa-sitemap"
       url: "/sitemap.xml"
     
 # Archives
