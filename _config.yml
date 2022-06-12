@@ -21,7 +21,7 @@ name                     : "Arash Gol-Mohammadi"
 description              : "arashgmn's website"
 teaser                   : "/assets/images/MW2.jpg"
 logo                     : "/assets/images/logo.png"
-masthead_title           : "arashgmn's website"
+#masthead_title           : "arashgmn's website"
 email:
 twitter_username: arashgmn
 github_username: arashgmn
