@@ -171,7 +171,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: "_portfolio"
+      type: portfolio
     values:
       layout: single
       author_profile: false
