@@ -148,7 +148,7 @@ footer:
 #      icon: "fab fa-fw fa-instagram"
 #      # url:
     - label: "Sitemap"
-      icon: "fab fa-fw fa-sitemap"
+      icon: "fa-regular fa-sitemap"
       url: "/sitemap.xml"
     
 # Archives
