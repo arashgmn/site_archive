@@ -13,12 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "en-US"
 title: arashgmn
+title_separator          : "-"
+subtitle                 : ""
+name                     : "Arash Gol-Mohammadi"
+description              : "arashgmn's website"
+teaser                   : "/assets/images/MW2.jpg"
+logo                     : "/assets/images/logo.png"
+masthead_title           : "arashgmn's website"
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 twitter_username: arashgmn
 github_username: arashgmn
 minimal_mistakes_skin: default
@@ -27,12 +31,17 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+highlighter: # roughe (default)
+lsi: false # not sure if needed
+excerpt_separator: "\n\n" # not sure if needed
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Reading Files
 include:
   - _pages
   - _projects
@@ -57,42 +66,87 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-github-metadata # not sure if is needed  
 
+# Site Author
 author:
   name   : "Arash Gol-Mohammadi"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I'm a graduate of computational science and I like to explore applications of probabilistic models in physics and engineering."
+  location         : "Germany"
+  email            :
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://your-website.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/arashgmn"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/arashgmn"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arashgmn"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/arashgmn/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      # url: "https://instagram.com/"
 
+# Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/arashgmn"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/arashgmn"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arashgmn"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/arashgmn/"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/arashgmn"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url:
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      # url:
 
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Collections
 collections:
   projects:
     output: true
     permalink: /:collection/:path/
 
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -103,19 +157,21 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
+      show_date: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: "_portfolio"
     values:
       layout: single
       author_profile: false
@@ -123,9 +179,4 @@ defaults:
 
 
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+

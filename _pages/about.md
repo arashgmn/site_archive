@@ -1,6 +1,17 @@
 ---
-permalink: /about/
 title: "About"
+permalink: /about/
+layout: single
+author_profile: true
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/road.jpg
+  #actions:
+  #  - label: "Look on GitHub"
+  #    url: "https://arashgmn.github.io/new-stite/projects/2010/01/06/proj_dump1"
+  caption: "Photo credit: [**where ever link I want!**](https://unsplash.com)"
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
