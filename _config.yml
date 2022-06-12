@@ -28,7 +28,7 @@ github_username: arashgmn
 minimal_mistakes_skin: default
 search: true
 comments:
-  provider               : discus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "discus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "arashgmn"
   discourse:
