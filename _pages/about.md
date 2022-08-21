@@ -13,7 +13,7 @@ header:
   #    url: "https://arashgmn.github.io/new-stite/projects/2010/01/06/proj_dump1"
   #caption: 
 
-excerpt: "After silence, that which comes nearest to expressing the inexpressible is music. -- *Aldous Huxley*"
+excerpt: "After silence, that which comes nearest to expressing the inexpressible is music. -- *Aldous Huxley* "
 ---
 
 Hi!
