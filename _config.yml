@@ -9,8 +9,8 @@
 # theme: 'minimal-mistakes-jekyll'
 
 # uncomment for remote 
-remote_theme: 'mmistakes/minimal-mistakes'
-source: '/' # (for github pages -- DON'T CHANGE)
+# remote_theme: 'mmistakes/minimal-mistakes'
+# source: '/' # (for github pages -- DON'T CHANGE)
 incremental: false # (for github pages -- DON'T CHANGE)
 
 

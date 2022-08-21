@@ -11,9 +11,24 @@ header:
   #actions:
   #  - label: "Look on GitHub"
   #    url: "https://arashgmn.github.io/new-stite/projects/2010/01/06/proj_dump1"
-  caption: "Photo credit: [**where ever link I want!**](https://unsplash.com)"
+  #caption: 
+
+excerpt: "After silence, that which comes nearest to expressing the inexpressible is music. -- *Aldous Huxley*"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi!
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Thanks for checking out my webpage. I'm *Arash* and I write about stuff that concern or intimidate me on some way -- like every one else. But, you may ask why blogging and not, for instance, using social platforms. Well, there are a few reasons:
+
+- **Referencing**: Social media are often not that searchable,
+- **Austhetic and integrity**: they come with limitation (character limits, media size and formats, etc.),
+- **Calmness**: there's fight for getting attention out there which is harmful for the type of exchange I wish to have, 
+- **Development**: I want to work on my writing skills. I don't like it, but it organizes my thoughts, which is comforting.
+
+The fact that I write about things doesn't mean I know tons about them.
+{: .notice--danger}
+
+Like most of you, I also care about different forms of social segregations. I try to share my point of view and have it challenged here (through your comments :) ). I studied mechanical engineering, physics, and computational science, and this academic training has heavily shaped my view and my way of thinking. Look at my [detailed CV]() or [projects]() if that matters to you. I also follow art in form of music, movies, and novels. 
+
+
+
