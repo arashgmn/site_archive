@@ -1,13 +1,68 @@
-# main links
-main:
-  - title: "Home"
-    url: /
-    description: The discription of what ever is there
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Posts"
-    url: /posts/
-  - title: "Tags"
-    url: /tags/
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Blog
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      fr      : &FR       blog
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      fa      : &FA       بلاگ
+      # @end locale config
+    url: /blog.html 
+
+  - titles:
+      # @start locale config
+      en      : &EN       Simulation
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      fr      : &FR       Simulation
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      fa      : &FA       شبیه‌سازی
+      # @end locale config
+    url: /simulations.html 
+
+  - titles:
+      # @start locale config
+      en      : &EN       About Me
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      fr      : &FR       À propos moi
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      fa      : &FA       درباره‌ی من
+      # @end locale config
+    url: /about.html
+    
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      fr      : &FR       Archives
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      fa      : &FA        آرشیو 
+      # @end locale config
+    url: /archive.html
